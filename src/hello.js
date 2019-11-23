@@ -1,3 +1,3 @@
-export default function getMessage() {
-  return 'Welcome to your Vanilla JavaScript site, built with minimal dependencies.';
+export function getMessage() {
+  return 'Welcome to your Node.js server, built with minimal dependencies.';
 }

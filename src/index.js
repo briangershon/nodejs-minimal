@@ -1,3 +1,3 @@
-import getMessage from './hello';
+import { getMessage } from './hello';
 
-document.getElementById('content').innerText = getMessage();
+console.log(`Hello message: ${getMessage()}`);

@@ -1,32 +1,29 @@
-# vanilla-js-minimal
+# nodejs-minimal
 
-![Build Status](https://github.com/briangershon/vanilla-js-minimal/workflows/Continuous%20Integration/badge.svg)
+![Build Status](https://github.com/briangershon/nodejs-minimal/workflows/Continuous%20Integration/badge.svg)
 
-Vanilla JavaScript starter with minimal dependencies and tools.
+Node.js starter with minimal dependencies and tools.
 
 * Includes a development environment with:
-  * Support for es6 modules and hot reloading (via Parcel Bundler)
-  * Compile to es5 to run across a wide range of browsers (via Babel)
+  * Support for es6 modules (for Node 10.x+ using `esm` module). Does not require Babel nor a bundler.
+  * Restarts node automatically when changes happen.
   * Unit tests (via Jest)
   * Lint (via ESLint with their recommended settings)
   * Continuous Integration workflow with Github Actions
 
-* Styling with default fonts that look great across operating systems.
+## Future simplifications
+
+* [ ] In Node 13.x+, ES modules will be supported natively without needing any Node.js flags. Remove `esm` dependency.
 
 ## Run Local Dev Server
 
     npm install  # install dependencies
 
     npm start
-    # visit http://localhost:1234
 
 ## Run Tests
 
     npm test
-
-## Package project up in dist folder for release to server
-
-    npm run build
 
 ## Run lint
 

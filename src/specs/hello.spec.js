@@ -1,6 +1,7 @@
-import getMessage from '../hello';
+const esmImport = require('esm')(module);
+const { getMessage } = esmImport('../hello');
 
 test('has default message', () => {
   const message = getMessage();
-  expect(message).toEqual('Welcome to your Vanilla JavaScript site, built with minimal dependencies.');
+  expect(message).toEqual('Welcome to your Node.js server, built with minimal dependencies.');
 });
