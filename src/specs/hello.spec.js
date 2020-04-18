@@ -1,5 +1,4 @@
-const esmImport = require('esm')(module);
-const { getMessage } = esmImport('../hello');
+import { getMessage } from '../hello';
 
 test('has default message', () => {
   const message = getMessage();

@@ -4,22 +4,23 @@
 
 Node.js starter with minimal dependencies and tools.
 
+Requires Node.js v13.13+ for default support of experimental ECMAScript modules (esm).
+
 * Includes a development environment with:
-  * Support for es6 modules (for Node 10.x+ using `esm` module). Does not require Babel nor a bundler.
+  * Support for ECMAScript modules. Does not require Babel nor a bundler.
   * Restarts node automatically when changes happen.
-  * Unit tests (via Jest)
+  * Unit tests (via Jest) (Babel required to run Jest with esm)
   * Lint (via ESLint with their recommended settings)
   * Continuous Integration workflow with Github Actions
-
-## Future simplifications
-
-* [ ] In Node 13.x+, ES modules will be supported natively without needing any Node.js flags. Remove `esm` dependency.
 
 ## Run Local Dev Server
 
     npm install  # install dependencies
 
+    nvm use      # optional, for nvm users
     npm start
+
+    # see Welcome message logged in terminal window
 
 ## Run Tests
 
