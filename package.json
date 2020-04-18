@@ -1,7 +1,7 @@
 {
-  "name": "simple-node-starter",
+  "name": "nodejs-minimal",
   "version": "1.0.0",
-  "description": "A clean, simple node starter",
+  "description": "A clean, simple nodejs starter",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src/*.js src/specs/*.js",
@@ -15,10 +15,10 @@
   "author": "Brian Gershon",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.7.2",
-    "eslint-plugin-jest": "^23.1.1",
-    "jest": "^24.9.0",
-    "nodemon": "^2.0.1"
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.8.2",
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.3"
   },
   "private": true,
   "dependencies": {
