@@ -1,6 +1,6 @@
 {
   "name": "nodejs-minimal",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A clean, simple nodejs starter",
   "main": "src/index.js",
   "scripts": {
@@ -16,12 +16,12 @@
   "author": "Brian Gershon",
   "license": "MIT",
   "devDependencies": {
-    "@babel/preset-env": "^7.9.5",
-    "babel-jest": "^25.3.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-jest": "^23.8.2",
-    "jest": "^25.3.0",
-    "nodemon": "^2.0.3"
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.5.2",
+    "eslint": "^7.11.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.5.3",
+    "nodemon": "^2.0.4"
   },
   "private": true
 }
